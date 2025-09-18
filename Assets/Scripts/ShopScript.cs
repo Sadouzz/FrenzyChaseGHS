@@ -27,6 +27,8 @@ public class ShopScript : MonoBehaviour
 
     }
 
+
+
     public void PurchaseWithCoins(int _price)
     {
         BuyingPanel(_price);
