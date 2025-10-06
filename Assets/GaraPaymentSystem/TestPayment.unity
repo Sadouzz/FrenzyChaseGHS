@@ -2548,8 +2548,8 @@ MonoBehaviour:
   payData:
     id: 2983
     provider: INTOUCH
-    platform: 
-    returnUrl: https://gara.co/
+    platform: FrenzyChase
+    returnUrl: 
     action: IN_APP_PURCHASE
     isCashIn: 0
     paymentMethodType: MOBILE_MONEY
@@ -2582,7 +2582,7 @@ MonoBehaviour:
   - Currency: XOF
     itemPublicName: "Acheter 300 \xE9toiles"
     itemSprite: {fileID: 21300000, guid: f8010bd20eab086408c9a3b14a8739f3, type: 3}
-    itemPrice: 500
+    itemPrice: 200
     PlayerprefKey: stars
     itemCount: 300
   - Currency: XOF
