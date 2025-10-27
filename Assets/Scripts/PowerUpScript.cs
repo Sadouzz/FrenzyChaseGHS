@@ -35,6 +35,7 @@ public class PowerUpScript : MonoBehaviour
             BuyingPanel(150, turrelSprite);
             buyButton.onClick.AddListener(delegate { BuyingOnClick(150, "Tourelle"); });
         }
+        RefreshText();
     }
 
     public void FireCircleClick()
@@ -49,6 +50,7 @@ public class PowerUpScript : MonoBehaviour
             BuyingPanel(175, fireSprite);
             buyButton.onClick.AddListener(delegate { BuyingOnClick(175, "Cercle de feu"); });
         }
+        RefreshText();
     }
 
     public void DestabilisateurClick()
@@ -63,6 +65,7 @@ public class PowerUpScript : MonoBehaviour
             BuyingPanel(200, destaSprite);
             buyButton.onClick.AddListener(delegate { BuyingOnClick(200, "Déstabilisateur"); });
         }
+        RefreshText();
     }
 
     public void SawClick()
@@ -77,6 +80,7 @@ public class PowerUpScript : MonoBehaviour
             BuyingPanel(200, sawSprite);
             buyButton.onClick.AddListener(delegate { BuyingOnClick(200, "Scies"); });
         }
+        RefreshText();
     }
 
     public void MinesClick()
@@ -91,6 +95,7 @@ public class PowerUpScript : MonoBehaviour
             BuyingPanel(225, mineSprite);
             buyButton.onClick.AddListener(delegate { BuyingOnClick(225, "Mines"); });
         }
+        RefreshText();
     }
     // Start is called before the first frame update
     void Start()
