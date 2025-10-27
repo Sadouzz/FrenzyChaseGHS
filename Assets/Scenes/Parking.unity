@@ -704,16 +704,15 @@ PrefabInstance:
     - target: {fileID: 480694142892020701, guid: 1497716b379ce5549b315d4eb61053e6,
         type: 3}
       propertyPath: m_text
-      value: '** Un cercle orange apparait autour de votre voiture lorsque vous avez
-        un power-up et un cercle blanc lorsque vous etes invincible.
+      value: '** Cliquez sur les boutons des power-ups en bas de votre ecran pour
+        les utiliser
 
-        **
-        Tapotez l''ecran 2 fois pour utiliser votre Power-up.'
+        (si vous en avez)'
       objectReference: {fileID: 0}
     - target: {fileID: 480694142892020701, guid: 1497716b379ce5549b315d4eb61053e6,
         type: 3}
       propertyPath: m_fontSize
-      value: 68.45
+      value: 73.2
       objectReference: {fileID: 0}
     - target: {fileID: 480694142892020701, guid: 1497716b379ce5549b315d4eb61053e6,
         type: 3}
@@ -2385,7 +2384,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.15
+  m_fontSize: 61.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4175,7 +4174,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.5
+  m_fontSize: 61.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4959,7 +4958,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 63.4
+  m_fontSize: 39.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18128,8 +18127,15 @@ PrefabInstance:
         *
         Maintenez la moitie droite de l''ecran pour virer a droite.
 
-        * Tapotez
-        l''ecran 2 fois pour utiliser votre Power-up.'
+        * Cliquez
+        sur les boutons des power-ups en bas de votre ecran pour les utiliser
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522520150724532577, guid: 322afc926c52d784a97255d36d52b33f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 56.4
       objectReference: {fileID: 0}
     - target: {fileID: 8793554977080968082, guid: 322afc926c52d784a97255d36d52b33f,
         type: 3}

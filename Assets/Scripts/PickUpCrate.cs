@@ -34,6 +34,7 @@ public class PickUpCrate : MonoBehaviour
         int r = Random.Range(0, powerNum);
         InventoryScript.instance.PowerPicked(r);
         CardsManager.instance.AddCards(1, powers[r]);
+        PowerUpScript.instance.RefreshText();
         picked.Play();
         Destroy(gameObject);
     }

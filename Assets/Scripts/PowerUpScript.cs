@@ -12,6 +12,17 @@ public class PowerUpScript : MonoBehaviour
     public Sprite turrelSprite, fireSprite, destaSprite, sawSprite, mineSprite;
     public TextMeshProUGUI starsOwnedText, priceTextBuyingPanel, turrelCardsText, fireCircleCardsText, destabilisatorCardsText, sawCardsText, minesCardsText;
 
+    public static PowerUpScript instance;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("Il y a plus d'un inventaire");
+            return;
+        }
+        instance = this;
+    }
+
     public void TurrelClick()
     {
         if(PlayerPrefs.GetInt("TourelleCards", 0) > 1)

@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Parking.unity
     guid: 286c703d93558974f9b9e79599a4f8c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/GaraPaymentSystem/TestPayment.unity
     guid: b2d854b3bf82cab4a827c4e1ccbf0771
   - enabled: 0
