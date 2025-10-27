@@ -2582,7 +2582,7 @@ MonoBehaviour:
   - Currency: XOF
     itemPublicName: "Acheter 300 \xE9toiles"
     itemSprite: {fileID: 21300000, guid: f8010bd20eab086408c9a3b14a8739f3, type: 3}
-    itemPrice: 200
+    itemPrice: 400
     PlayerprefKey: stars
     itemCount: 300
   - Currency: XOF
@@ -2597,6 +2597,24 @@ MonoBehaviour:
     itemPrice: 850
     PlayerprefKey: stars
     itemCount: 500
+  - Currency: XOF
+    itemPublicName: "D\xE9bloquer toutes les voitures"
+    itemSprite: {fileID: 21300000, guid: e6a8069c505fc3042858f2b505b1348e, type: 3}
+    itemPrice: 1500
+    PlayerprefKey: allCarsUnlockedInt
+    itemCount: 1
+  - Currency: XOF
+    itemPublicName: "D\xE9bloquer toutes les maps"
+    itemSprite: {fileID: 21300000, guid: 690ca804a49d0fd45801fff89d061f98, type: 3}
+    itemPrice: 1500
+    PlayerprefKey: allMapsUnlockedInt
+    itemCount: 1
+  - Currency: XOF
+    itemPublicName: "D\xE9bloquer toutes les voitures et maps"
+    itemSprite: {fileID: 21300000, guid: 690ca804a49d0fd45801fff89d061f98, type: 3}
+    itemPrice: 3000
+    PlayerprefKey: allCarsMapsUnlockedInt
+    itemCount: 1
   itemPrefab: {fileID: 5091991865080108045, guid: e0a189276fb249a46a462f3b7cbd377c,
     type: 3}
   parentPanel: {fileID: 1054175623}
